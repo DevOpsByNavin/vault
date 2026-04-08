@@ -100,6 +100,8 @@ vault operator init
 
 ![vault-operator-init.png](assets/vault-operator-init.png)
 
+> Make sure to save the output somewhere safe, that's gonna be needed if vault ever restarts.
+
 ### Unseal the vault
 
 Use the unique previously genrated key for `key-threshold` (default to `3`) times to unseal the vault.  
@@ -125,3 +127,7 @@ vault login
 ```
 
 ![vault-login.png](assets/vault-login.png)
+
+You can now navigate to the browser and use the provided root token to login.
+
+![browser](assets/browser.png)
